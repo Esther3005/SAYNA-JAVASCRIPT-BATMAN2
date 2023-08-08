@@ -1,0 +1,36 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+/*font family*/
+@font-face {
+    font-family: rajhdani;
+    src:("/police/Rajdhani-Medium.ttf");
+  }
+  @font-face {
+    font-family: spaceGrotesk;
+    src: url("/police/SpaceGrotesk-VariableFont_wght.ttf");
+  }
+h1.AGGRANDIR{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: small;
+}
+.taille-txt{
+       font-size: larger;
+       color: beige;    
+}
+body{
+    background-color:
+}
+.POPPUP1{
+    color: antiquewhite;
+    background-color: rgba(rgb(15, 11, 11), rgb(43, 29, 10), rgb(119, 70, 14), 0.6);
+
+}
+.POPPUP1 button{
+    background-color: rgba(rgb(153, 145, 127), rgb(232, 182, 132), rgb(180, 148, 33), 4);
+    color: aliceblue;
+    text-transform: uppercase;
+}
